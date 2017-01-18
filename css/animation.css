@@ -1,0 +1,14 @@
+@keyframes rotatation {
+
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+
+}
+
+@keyframes skew {
+
+	0% { transform: skewY(0deg); }
+	30% { transform: skewY(45deg); }
+	60% { transform: skewY(-45deg); }
+
+}
