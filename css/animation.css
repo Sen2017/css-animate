@@ -12,3 +12,21 @@
 	60% { transform: skewY(-45deg); }
 
 }
+
+@keyframes every {
+
+	0% { transform: rotate(0deg); transform: translate(0,0); background-color: gold; }
+	50% { transform: rotate(180deg); transform: translate(0,3); background-color: blue; }
+	100% { transform: rotate(360deg); transform: translate(0,0); background-color: gray; }
+
+}
+
+@keyframes animate {
+
+	0%{ border: 50px; height: 200px; background-color: gray; }
+	25%{ border: 20px; height: 50px; background-color: red; }
+	50%{ border: 75px; height: 100px; background-color: gray; }
+	75% { border: 40px; height: 50px; background-color: red; }
+	100% { border: 50px; height: 200px; background-color: gray; }
+}
+
